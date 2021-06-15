@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+#root {
+  background-color: #282c34;
+  height: 100vh;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+.header {
+  min-height: 30vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.new-todo {
+  height: 42px;
+  width: 480px;
+  padding: 0 6px;
+  border-radius: 3px;
+  font-size: 18px;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  padding: 0 auto;
+}
+
+.list-none {
+  width: 480px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+  color: white;
+  font-size: 24px;
+  text-align: center;
+}
+
+.todo-list {
+  width: 480px;
+  color: white;
+  margin: 0 auto;
+  list-style: none;
+  padding: 20px 40px;
+}
+
+.footer {
+  width: 480px;
+  height: 100px;
+  margin: 0 auto;
+  padding: 20px 40px;
+}
+.todo-count {
+  color: white;
+}
+
+.view {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  height: 40px;
+}
+
+.edit {
+  width: 100%;
+  height: 42px;
+  border-radius: 3px;
+  font-size: 18px;
+  padding: 0 6px;
+}
